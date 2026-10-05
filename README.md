@@ -1,8 +1,10 @@
 # FQL-AGLEACH — simulator and results
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23150738.svg)](https://doi.org/10.5281/zenodo.23150738)
+
 Source code and per-topology results for the article
 
-> T. Wahyono, M. Ridwan, I. Sembiring, R. Darmastuti,
+> M. Ridwan, T. Wahyono, I. Sembiring, R. Darmastuti,
 > *FQL-AGLEACH: An Adaptive Grid LEACH Protocol with Fuzzy Q-Learning for Energy-Efficient Wireless Sensor Networks* (submitted, 2026).
 
 FQL-AGLEACH combines a tile-aligned adaptive grid, whose number of cells follows an optimal-cluster-count estimate, with a 27-rule Glorennec–Jouffe fuzzy Q-learning agent hosted at the base station. In every grid cell, the agent chooses the cluster head among the energy-eligible nodes (residual energy at or above the 75th percentile of the cell). The repository contains the simulator for FQL-AGLEACH and the four baselines (LEACH, Fuzzy-LEACH, Grid-LEACH, AGLEACH), plus the scripts that produce every table and figure of the article.
