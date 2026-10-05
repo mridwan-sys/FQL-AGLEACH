@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the article below."
+title: "FQL-AGLEACH simulator and results"
+version: 1.0.0
+date-released: 2026-10-05
+license: MIT
+authors:
+  - family-names: Wahyono
+    given-names: Teguh
+  - family-names: Ridwan
+    given-names: Mohammad
+  - family-names: Sembiring
+    given-names: Irwan
+  - family-names: Darmastuti
+    given-names: Rini
+preferred-citation:
+  type: article
+  title: "FQL-AGLEACH: An Adaptive Grid LEACH Protocol with Fuzzy Q-Learning for Energy-Efficient Wireless Sensor Networks"
+  authors:
+    - family-names: Wahyono
+      given-names: Teguh
+    - family-names: Ridwan
+      given-names: Mohammad
+    - family-names: Sembiring
+      given-names: Irwan
+    - family-names: Darmastuti
+      given-names: Rini
+  status: submitted
+  year: 2026

@@ -1,0 +1,32 @@
+\multicolumn{7}{l}{\textit{S1: 100 nodes, uniform, BS at centre}}\\
+AGLEACH (linear grid, max-E) & 1147 & 1655 & 1802 & 1796 & 162.3 & $^{***}$\\
++ k_opt grid [v2] & 1117 & 1813 & 2232 & 2124 & 179.0 & $^{***}$\\
++ tile-aligned k_opt grid & 1166 & 1811 & 2223 & 2118 & 179.3 & $^{***}$\\
++ FQL, learning frozen & 1166 & 1811 & 2222 & 2118 & 179.3 & $^{***}$\\
+Hand-tuned phase switch & 1165 & 1790 & 2451 & 2142 & 179.2 & $^{\mathrm{ns}}$\\
+FQL-AGLEACH (full) & 1169 & 1804 & 2567 & 2108 & 179.3 & \\
+\midrule
+\multicolumn{7}{l}{\textit{S2: 500 nodes, uniform, BS at centre}}\\
+AGLEACH (linear grid, max-E) & 706 & 1952 & 2103 & 2087 & 944.8 & $^{***}$\\
++ k_opt grid [v2] & 1444 & 1968 & 2244 & 2156 & 973.8 & $^{***}$\\
++ tile-aligned k_opt grid & 1498 & 1965 & 2253 & 2162 & 974.8 & $^{***}$\\
++ FQL, learning frozen & 1498 & 1965 & 2254 & 2162 & 974.8 & $^{***}$\\
+Hand-tuned phase switch & 1482 & 1939 & 2498 & 2195 & 972.7 & $^{\mathrm{ns}}$\\
+FQL-AGLEACH (full) & 1489 & 1949 & 2587 & 2166 & 973.3 & \\
+\midrule
+\multicolumn{7}{l}{\textit{S3: 100 nodes, clustered, BS at centre}}\\
+AGLEACH (linear grid, max-E) & 818 & 1842 & 1959 & 1954 & 175.5 & $^{***}$\\
++ k_opt grid [v2] & 596 & 2001 & 2328 & 2240 & 187.9 & $^{***}$\\
++ tile-aligned k_opt grid & 800 & 1973 & 2306 & 2231 & 189.2 & $^{***}$\\
++ FQL, learning frozen & 800 & 1974 & 2307 & 2231 & 189.2 & $^{***}$\\
+Hand-tuned phase switch & 800 & 1954 & 2526 & 2233 & 189.3 & $^{\mathrm{ns}}$\\
+FQL-AGLEACH (full) & 803 & 1959 & 2572 & 2212 & 189.2 & \\
+\midrule
+\multicolumn{7}{l}{\textit{S4: 100 nodes, uniform, BS outside (50,150)}}\\
+AGLEACH (linear grid, max-E) & 631 & 1110 & 1362 & 1358 & 111.3 & $^{**}$\\
++ k_opt grid [v2] & 515 & 1092 & 1467 & 1450 & 113.2 & $^{**}$\\
++ tile-aligned k_opt grid & 982 & 1154 & 1338 & 1334 & 115.9 & $^{***}$\\
++ FQL, learning frozen & 981 & 1154 & 1338 & 1334 & 115.9 & $^{***}$\\
+Hand-tuned phase switch & 966 & 1156 & 1422 & 1330 & 116.1 & $^{\mathrm{ns}}$\\
+FQL-AGLEACH (full) & 974 & 1149 & 1408 & 1330 & 116.1 & \\
+\bottomrule
